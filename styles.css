@@ -136,7 +136,7 @@ a:hover {
 
 .link h2 {
   font-size: 0.9em;
-  margin: 0px;
+  margin: 0;
   line-height: 1em;
 }
 
@@ -157,7 +157,7 @@ a:hover {
   position: absolute;
   height: 100%;
   right: 20px;
-  top: 0px;
+  top: 0;
   padding-top: 28px;
 }
 
@@ -263,6 +263,11 @@ a.link:hover {
 .github {
   background-color: #2b3137;
   box-shadow: 8px 8px 14px -8px #2b3137;
+}
+
+.gitlab {
+  background-color: #FFF;
+  box-shadow: 8px 8px 14px -8px #FFF;
 }
 
 .google {
